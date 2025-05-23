@@ -1,0 +1,28 @@
+ul{
+    text-align:center;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block; 
+    /* Permite que o li fique um do lado do outro */
+}
+
+figure{
+    text-align: center;
+}
+
+img{
+    vertical-align: middle;
+    border: 1px solid black;
+    /* espessura, o estilo e a cor */
+}
+
+a{
+    display: inline-block;
+    padding: 1em;
+}
+
+a:hover{
+    background-color: #ddd;
+}
