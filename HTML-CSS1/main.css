@@ -1,0 +1,16 @@
+/* De destaque use a imagem para html principal, já o descartável como o plano de fundo é para CSS */
+
+body{
+    background-image: url(imagens/diatinf-bg.png), url(imagens/bg.png);
+    /* Declaração de imagens e precisam ser separadas por vírgulas */
+    background-repeat: no-repeat, repeat;
+    background-position: right bottom, center;
+    background-size: cover, auto;
+    /* contain: altura, cover: largura da imagem a largura da resolução */
+    background-attachment: fixed;
+
+}
+h1{
+    background-image: linear-gradient(90deg, rgb(0, 0, 255),rgb(255, 0, 0));
+    color: white;
+}
