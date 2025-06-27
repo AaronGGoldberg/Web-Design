@@ -49,7 +49,7 @@ Conteúdo **bilíngue**, com alternância entre idiomas sem recarregar a página
 
 - HTML5
 - CSS (arquivo externo)
-- JavaScript
+- JavaScript (O básico apenas)
 - Figma (para o protótipo visual)
 
 ---

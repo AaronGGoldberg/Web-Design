@@ -14,3 +14,4 @@ function changeLanguage(lang) {
 document.addEventListener('DOMContentLoaded', () => {
     changeLanguage('pt');
 });
+
