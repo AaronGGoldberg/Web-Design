@@ -65,9 +65,41 @@ main {
 }
 
 .horizontal-list {
-    list-style-type: circle;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
+    list-style: disc;
+    list-style-position: inside;
     padding: 0;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+    .profile-pic {
+        width: 80px;
+    }
+
+    .small-pic {
+        width: 60px;
+    }
+
+    .lang-btn {
+        position: static;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    nav {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .horizontal-list {
+        flex-direction: column;
+        align-items: center;
+    }
 }
