@@ -1,0 +1,95 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
+header {
+  background: linear-gradient(to right, #72CFED, #186C86);
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+/* Container de cartões */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5em;
+  padding: 2em;
+}
+
+/* Cartão individual */
+.card {
+  display: inline-block;
+  width: 200px;
+  background: white;
+  padding: 1em;
+  border-radius: 6px;
+  position: relative;
+  text-align: center;
+  box-shadow: 1em 1em 1em 1em rgba(0, 0, 0, 0.1);
+}
+
+/* Ícones */
+.card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1em;
+}
+
+/* Título */
+.card h3 {
+  color: #186C86;
+  margin-bottom: 0.5em;
+}
+
+/* Texto */
+.card p {
+  font-size: 0.9em;
+  color: #444;
+}
+
+/* Data */
+.card .data {
+  position: absolute;
+  top: 0.5em;
+  right: 0.7em;
+  font-size: 0.75em;
+  color: #888;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    float: none;
+  }
+}
+
+/* Ícone no canto superior esquerdo do header */
+header {
+  position: relative;
+}
+
+.icone-canto {
+  position: absolute;
+  top: 15px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+}
