@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login IFRN</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        height: 100vh;
+        display: flex;
+    }
+
+    /* Coluna da esquerda */
+    .left {
+        background-color: white;
+        width: 40%;
+        position: relative;
+    }
+
+    .title {
+        background-color: #70944f;
+        color: white;
+        padding: 10px 30px;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 18px;
+        position: absolute;
+        top: 50%;
+        right: 0%;
+        transform: translate(50%, -50%);
+    }
+
+    /* Coluna da direita */
+    .right {
+        background-color: #A5C588;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Caixa de login */
+    .login-box {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 250px;
+    }
+
+    .login-box input {
+        padding: 10px;
+        border: none;
+        outline: none;
+        font-size: 14px;
+    }
+
+    .login-box button {
+        background-color: #4c6832;
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    .login-box button:hover {
+        opacity: 0.9;
+    }
+
+</style>
+</head>
+<body>
+
+    <div class="left">
+        <div class="title">IFRN</div>
+    </div>
+
+    <div class="right">
+        <form class="login-box">
+            <input type="text" placeholder="LOGIN">
+            <input type="password" placeholder="SENHA">
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+</body>
+</html>
